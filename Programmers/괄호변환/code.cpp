@@ -53,7 +53,7 @@ int main(){
     ios::sync_with_stdio();
     cin.tie(0);
 
-    string str = "()))((()";
+    string str = "()))((()"; // 테스트케이스
     string answer = solution(str);
     cout << answer;
 }
