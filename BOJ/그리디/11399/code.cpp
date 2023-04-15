@@ -14,7 +14,7 @@ int main(){
     }    
     sort(arr, arr+N);
     int ans = 0;
-
+ 
     for(int k=0; k<N; k++){
         int tmp=0;
         for(int i=0; i<=k; i++){
