@@ -18,7 +18,7 @@ int main(){
     for(int i=0; i<n; i++){
         cin >> board[i];
     }
-    for(int i=0; i<m; i++){
+    for(int i=0; i<n; i++){
         fill(dis[i], dis[i]+m, -1);
     }
     queue<pair<int, int>> Q;
