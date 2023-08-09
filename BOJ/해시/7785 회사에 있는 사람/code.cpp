@@ -20,4 +20,5 @@ int main(){
     sort(ans.begin(), ans.end(), greater<string>());
     for(auto x : ans) cout << x << '\n';
     
+    return 0;
 }
