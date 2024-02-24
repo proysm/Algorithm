@@ -26,6 +26,6 @@ int main(void){
     adj[b].push_back(a);
   }
 
-  dfs(1);
+  dfs(1); // 1번 컴퓨터가 바이러스 걸림.
   cout << ans;
 }
