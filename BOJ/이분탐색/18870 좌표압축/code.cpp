@@ -18,6 +18,13 @@ int main(){
     }
     sort(tmp.begin(), tmp.end());
 
+    /* unique 라는 STL을 사용하면 더 간단해진다.
+    tmp.erase(unique(tmp.begin(), tmp.end()), tmp.end());
+    for(int i=0; i<n; i++)
+    {
+        cout << lower_bound(tmp.begin(), tmp.end(), a[i]) - tmp.begin() << " ";
+    }
+    */
 
     for(int i=0; i<n; i++)
     {
